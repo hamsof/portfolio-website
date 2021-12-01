@@ -1,4 +1,5 @@
 # portfolio-website
+checkout it from github pages: https://hamsof.github.io/portfolio-website/
 # Hafiz Abdulmanan
 My own coded portfolio website for web development bootcamp
 I have coded this website in HTML, CSS, JS
