@@ -53,7 +53,7 @@ header nav :last-of-type:hover, header nav :last-of-type:focus {
 }
 
 main {
-  background-image: url("../Capture (1).png");
+  background-image: url("../images/back.png");
 }
 
 section.front {
