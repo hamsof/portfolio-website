@@ -290,11 +290,8 @@ section.about .img {
 }
 
 section.about img {
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  border: 10px solid #dd5c5c;
-  padding: 20px;
+  border: 10px solid white;
+  padding: 5px;
 }
 
 section.projects {
@@ -359,7 +356,8 @@ section.projects .project_profile .project_text {
   line-height: 1.9;
 }
 
-section.projects .project_profile .live, section.projects .project_profile .code {
+section.projects .project_profile .live,
+section.projects .project_profile .code {
   padding: 10px;
   border: 2px solid #dd5c5c;
   border-radius: 10px;
@@ -370,7 +368,8 @@ section.projects .project_profile .live, section.projects .project_profile .code
   cursor: pointer;
 }
 
-section.projects .project_profile .live:hover, section.projects .project_profile .code:hover {
+section.projects .project_profile .live:hover,
+section.projects .project_profile .code:hover {
   background-color: #dd5c5c;
 }
 

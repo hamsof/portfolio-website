@@ -1,14 +1,17 @@
 @import "./functions";
 
-section.projects{
-    background-color:#1e1e1e;
+section.projects {
+    background-color: #1e1e1e;
     padding: 20px;
-    .project_heading{
+
+    .project_heading {
         @include heading();
     }
-    .project_profile{
+
+    .project_profile {
         margin-top: 50px;
-        img{
+
+        img {
             height: 300px;
             width: 300px;
             border: $background solid 5px;
@@ -17,36 +20,44 @@ section.projects{
             margin: 10px;
             margin-right: 50px;
         }
-        .profile{
+
+        .profile {
             display: flex;
             margin-bottom: 50px;
         }
-        .intro_project{
+
+        .intro_project {
             margin-top: 30px;
         }
-        .heading{
+
+        .heading {
             font-size: 40px;
             color: $background;
         }
-        .project_text{
+
+        .project_text {
             font-size: larger;
             font-family: 'Kanit', sans-serif;
             word-spacing: 2px;
             line-height: 1.9;
         }
-        .live,.code{
+
+        .live,
+        .code {
             padding: 10px;
             border: 2px solid $background;
             border-radius: 10px;
             width: fit-content;
             margin-bottom: 10px;
             cursor: pointer;
-            &:hover{
+
+            &:hover {
                 background-color: $background;
             }
         }
     }
-    .see_more{
+
+    .see_more {
         @include heading();
         float: left;
         cursor: pointer;
