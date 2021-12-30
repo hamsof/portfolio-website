@@ -586,6 +586,10 @@ footer .footer_text {
   color: white;
 }
 
+#second_projects .project_desciption_heading {
+  text-align: center;
+}
+
 .last {
   height: 6.7%;
   background-color: #2e1212;
