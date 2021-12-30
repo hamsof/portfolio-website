@@ -6,6 +6,7 @@
 @import "./projects";
 @import "./contact";
 @import "./footer";
+@import "./second_project";
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Staatliches&display=swap');
 
@@ -14,4 +15,9 @@ body {
     padding: 0px;
     color: $upground !important;
     font-family: 'Staatliches', cursive !important;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }

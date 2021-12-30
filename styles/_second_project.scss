@@ -1,0 +1,86 @@
+@import "./functions";
+
+#second_projects {
+    background-color: rgb(46, 18, 18);
+
+    .project_heading {
+
+        @include heading();
+        margin-top: 10px;
+    }
+
+    .row {
+        margin: 0%;
+    }
+
+    .head_project {
+        padding: 10px;
+    }
+
+    .logo {
+        padding-left: 10px;
+        font-family: 'Pacifico', cursive;
+        color: $background;
+        font-size: 40px;
+    }
+
+    .carousel-inner {
+        margin-top: 20px;
+        background-color: #dd5c5c;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .project_text {
+
+        font-size: 20px;
+        font-family: 'Kanit', sans-serif;
+        word-spacing: 2px;
+        line-height: 1.9;
+    }
+
+    .project_img {
+        height: 400px;
+        width: 90%;
+        padding: 10px;
+        border: 10px solid white
+    }
+
+    .carousel-item {
+        padding: 5% 15% 5%;
+    }
+
+    .hamsss {
+        background-color: #e45252;
+        background-color: rgb(46, 18, 18);
+    }
+
+    .code {
+        padding: 5px;
+        background-color: rgb(46, 18, 18);
+        border: 4px solid $background;
+        border-radius: 10px;
+        width: fit-content;
+        margin-bottom: 10px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: white;
+            color: rgb(46, 18, 18);
+        }
+    }
+
+    a {
+        color: $background;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+.last {
+    height: 6.7%;
+    background-color: rgb(46, 18, 18);
+}

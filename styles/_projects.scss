@@ -61,5 +61,14 @@ section.projects {
         @include heading();
         float: left;
         cursor: pointer;
+
+        &:hover {
+            a {
+                color: $background;
+            }
+
+            background-color: $upground;
+            letter-spacing: 2px;
+        }
     }
 }
