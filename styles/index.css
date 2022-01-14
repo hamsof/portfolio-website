@@ -286,7 +286,6 @@ section.about .container_text .text {
 section.about .img {
   width: 400px;
   height: 400px;
-  overflow: hidden;
 }
 
 section.about img {
@@ -607,3 +606,4 @@ a {
   text-decoration: none;
 }
 /*# sourceMappingURL=index.css.map */
+
