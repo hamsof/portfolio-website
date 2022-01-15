@@ -1,6 +1,6 @@
 window.onload=function hafiz(){
     var txt_2 = 'I am a';
-    var txt_4=" Develper ^_^"
+    var txt_4=" Developer ^_^"
     var txt_3 = "I love to"
     var txt_5=" Code {...}"
     var speed = 300;
