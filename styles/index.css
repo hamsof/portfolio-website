@@ -594,6 +594,75 @@ footer .footer_text {
   background-color: #2e1212;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 80%;
+  }
+  header .logo {
+    margin: 0 auto;
+  }
+  nav {
+    display: none;
+  }
+  section.front .box {
+    width: 50%;
+  }
+  section.front .front_text_container {
+    font-size: 20px;
+  }
+  section.about .heading {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  section.about i {
+    display: none;
+  }
+  section.about .container_text {
+    display: block !important;
+    text-align: center;
+  }
+  section.about .container_text .text {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  section.projects .project_heading {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  section.projects .profile {
+    display: block !important;
+    text-align: center;
+  }
+  section.projects .profile .heading {
+    margin: 0 auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 30px;
+  }
+  section.projects .profile .live, section.projects .profile .code {
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  section.projects .profile img {
+    width: 250px;
+    height: 250px;
+  }
+  section.projects .see_more {
+    margin-top: 20px;
+    float: none;
+  }
+  section.contact .contact_heading {
+    display: none !important;
+  }
+  section.contact .fa {
+    margin-left: 10px;
+    height: 60px;
+    width: 60px;
+  }
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -606,4 +675,3 @@ a {
   text-decoration: none;
 }
 /*# sourceMappingURL=index.css.map */
-

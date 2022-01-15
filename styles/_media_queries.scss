@@ -1,0 +1,79 @@
+@import "./functions";
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 80%;
+    }
+    header .logo{
+        margin:0 auto ;
+    }
+     nav{
+        display: none;
+    }
+    section.front{
+        .box{
+            width: 50%;
+        }
+        .front_text_container
+        {
+            font-size: 20px;
+        }
+    }
+    section.about{
+        .heading{
+            width: 30%;
+            margin-bottom: 20px;
+        }
+        i{
+            display: none;
+        }
+        .container_text{
+            display: block!important;
+            text-align: center;
+            .text{
+                width: fit-content;
+            }
+        }
+    }
+    section.projects
+    {
+        .project_heading{
+            width: 30%;
+            margin-bottom: 20px;
+        }
+        .profile
+        {
+            display: block!important;
+            text-align: center;
+        .heading{
+            margin: 0 auto;
+            width: fit-content;
+            font-size:30px;
+        }
+        .live,.code{
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+        img{
+            width: 250px;
+            height: 250px;
+        }
+    }
+    .see_more {
+        margin-top: 20px;
+        float: none;
+        }
+    }
+
+    section.contact{
+        .contact_heading{
+            display: none !important;
+        }
+        .fa{
+            margin-left: 10px;
+            height: 60px;
+            width: 60px;
+        }
+    }
+    
+}
