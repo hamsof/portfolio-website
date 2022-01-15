@@ -2,7 +2,7 @@
 
 section.projects {
     background-color: #1e1e1e;
-    padding: 20px;
+    padding: 20px 100px;
     .project_heading {
         @include heading();
     }
@@ -60,13 +60,15 @@ section.projects {
         @include heading();
         float: left;
         cursor: pointer;
-
+        padding: 0 50px;
+        margin-top: 65px;
+        background-color: $upground;
         &:hover {
             a {
-                color: $background;
+                color:$upground ;
             }
 
-            background-color: $upground;
+            background-color: $background;
             letter-spacing: 2px;
         }
     }

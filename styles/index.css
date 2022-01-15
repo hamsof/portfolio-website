@@ -295,7 +295,7 @@ section.about img {
 
 section.projects {
   background-color: #1e1e1e;
-  padding: 20px;
+  padding: 20px 100px;
 }
 
 section.projects .project_heading {
@@ -392,15 +392,18 @@ section.projects .see_more {
   border-radius: 20px;
   float: left;
   cursor: pointer;
+  padding: 0 50px;
+  margin-top: 65px;
+  background-color: #cdebded4;
 }
 
 section.projects .see_more:hover {
-  background-color: #cdebded4;
+  background-color: #dd5c5c;
   letter-spacing: 2px;
 }
 
 section.projects .see_more:hover a {
-  color: #dd5c5c;
+  color: #cdebded4;
 }
 
 section.contact {
